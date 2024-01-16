@@ -351,7 +351,7 @@ textarea {
 }
 
 .reveal-effect.masker:after {
-  background-color: #161619;
+  background-color: #7F167F;
 }
 
 .reveal-effect.animated:after {
@@ -1601,8 +1601,16 @@ textarea {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
+  color: #460C68;
+  background: #ffffff;
+}
+
+.words.chars.splitting .section-title.things {
+  color: #000;
+}
+
+.words.chars.splitting {
   color: #fff;
-  background: #460C68;
 }
 
 .icon-content-block .container {
@@ -1624,7 +1632,7 @@ textarea {
 }
 
 .icon-content-block .content-block.selected {
-  background: #7F167F;
+  background: #460C68;
   box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.3);
 }
 
@@ -1675,7 +1683,15 @@ textarea {
   display: flex;
   flex-wrap: wrap;
   padding: 150px 0;
-  background: #fff;
+  background: #460C68;
+}
+
+.team .rowsec {
+  color: #fff;
+}
+
+.team .words.chars.splitting {
+  color: #000 !important;
 }
 
 .text-content-block .col-md-4 {
@@ -1927,7 +1943,7 @@ textarea {
   display: flex;
   flex-wrap: wrap;
   padding: 150px 0;
-  background: #222327;
+  background: #460C68;
   color: #fff;
 }
 
@@ -1964,7 +1980,7 @@ textarea {
   margin-bottom: 30px;
   position: relative;
   z-index: 2;
-  background: #222327;
+  background: #ffffff;
   -webkit-transition: 0.25s ease-in-out;
   -moz-transition: 0.25s ease-in-out;
   -ms-transition: 0.25s ease-in-out;
