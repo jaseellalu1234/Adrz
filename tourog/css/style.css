@@ -1690,6 +1690,10 @@ textarea {
   color: #fff;
 }
 
+.case-study.serviceSingle .container .row .words.chars.splitting {
+  color: #000 !important;
+}
+
 .team .words.chars.splitting {
   color: #000 !important;
 }
