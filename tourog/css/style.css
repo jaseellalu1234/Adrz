@@ -432,7 +432,7 @@ textarea {
   position: absolute;
   left: 0;
   top: 0;
-  background: #1c1c1c;
+  background: #000;
   transition-delay: 0.3s;
 }
 
@@ -449,6 +449,14 @@ textarea {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 13px;
+}
+
+.col-sm-2.col-md-4.wow.cardsHome .word {
+  color: #460C68;
+}
+
+.col-sm-2.col-md-4.wow.cardsHome .content-block.selected .word {
+  color: #fff !important;
 }
 
 .preloader .inner figure {
@@ -1407,7 +1415,7 @@ textarea {
   overflow: hidden;
 }
 
-.page-header .video-bg video {
+.page-header .video-bg img {
   min-width: 100%;
   min-height: 100%;
   position: absolute;
@@ -1690,6 +1698,10 @@ textarea {
   color: #fff;
 }
 
+.row.rowsec .col-lg-6 .word {
+  color: #fff !important;
+}
+
 .case-study.serviceSingle .container .row .words.chars.splitting {
   color: #000 !important;
 }
@@ -1841,7 +1853,7 @@ textarea {
   padding-top: 150px;
   padding-bottom: 100px;
   color: #fff;
-  background: #161619;
+  background: #460C68;
   position: relative;
   z-index: 2;
 }
@@ -3038,6 +3050,10 @@ only screen and (max-device-width: 767px) {
     margin-bottom: 40px;
   }
 
+  .team .words.chars.splitting {
+    color: #fff !important;
+  }
+
   .slider .gallery-thumbs {
     width: 100%;
     margin: 0;
@@ -3125,6 +3141,14 @@ only screen and (max-device-width: 767px) {
   .icon-content-block .content-block.selected {
     background: none;
     box-shadow: none;
+  }
+
+  .col-sm-2.col-md-4.wow.cardsHome .word {
+    color: #460C68;
+  }
+
+  .col-sm-2.col-md-4.wow.cardsHome .content-block.selected .word {
+    color: #460C68 !important;
   }
 
   .icon-content-block .content-block.selected:before {
