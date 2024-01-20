@@ -935,6 +935,10 @@ textarea {
   cursor: pointer;
 }
 
+.all-cases-link img {
+  cursor: pointer;
+}
+
 .all-cases-link b:hover {
   background: #7F167F;
   text-decoration: none;
